@@ -31,8 +31,12 @@ namespace piskvorky_2
 
             string bot = nahodneCislo.ToString();
 
-            
+            string player = "";
 
+            if (bot == "1" || player == "1")
+            {
+                pole[0] = "1";
+            }
 
 
         }        
